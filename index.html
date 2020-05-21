@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>learning bootstrap</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+
+        <link rel="stylesheet" href="bootstrap.min.css">
+        <link rel="stylesheet" href="style.css">
+
+    </head>
+
+
+<!-- these are examples of my studing bootstrap  -->
+    <body>
+
+        <div class="row">
+      <div class="col-lg-3 col-md-3 col-sm-4">  test1 </div>
+      <div class="col-lg-3 col-md-3 col-sm-4">  test2 </div>
+      <div class="col-lg-3 col-md-3 col-sm-4">  test3 </div>
+      <div class="col-lg-3 col-md-3 col-sm-4">  test4 </div>
+    </div>
+
+
+<div class="container">
+  <div class="row">
+    <div class="col">col</div>
+    <div class="col">col</div>
+    <div class="w-100"></div><!-- this  to make the following in another row  -->
+    <div class="col">col</div>
+    <div class="col">col</div>
+  </div>
+</div>
+
+
+
+<div class="container">
+    <div class="row justify-content-md-center"> <!--justify-content-md-center to start from center  -->
+      <div class="col col-lg-2"> <!-- this will take 2 -->
+        1 of 3
+      </div>
+      <div class="col-md-auto"> <!-- this will take the reminder  -->
+        Variable width content
+      </div>
+      <div class="col col-lg-2"><!-- this will take 2  -->
+        3 of 3
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col">
+        1 of 3
+      </div>
+      <div class="col-md-auto">
+        Variable width content
+      </div>
+      <div class="col col-lg-2">
+        3 of 3
+      </div>
+    </div>
+  </div>
+
+
+  <!-- this is for colum order  -->
+  <div class="container">
+    <div class="row">
+      <div class="col bg-success">
+        First in DOM, no order applied
+      </div>
+      <div class="col bg-success order-12">
+        Second in DOM, with a larger order
+      </div>
+      <div class="col bg-success order-1">
+        Third in DOM, with an order of 1
+      </div>
+    </div>
+  </div>
+
+<!-- this is for vertical aligin  -->
+<div class="container contaner1"> 
+  <div class="row align-items-start"> <!-- vertical align start  -->
+    <div class="col">
+      One of three columns
+    </div>
+    <div class="col">
+      One of three columns
+    </div>
+    <div class="col">
+      One of three columns
+    </div>
+  </div>
+ </div>
+<div class="container contaner2"> 
+  <div class="row align-items-center" > <!-- vertical align center  -->
+    <div class="col">
+      One of three columns
+    </div>
+    <div class="col">
+      One of three columns
+    </div>
+    <div class="col">
+      One of three columns
+    </div>
+  </div>
+</div>
+
+            
+
+
+ <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+    </body>
+    </html>
